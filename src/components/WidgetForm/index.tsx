@@ -2,11 +2,11 @@ import { useState } from "react";
 
 import { FeedbackTypesStep } from "./Staps/FeedbackTypesStep";
 import { FeedbackContentStep } from "./Staps/FeedbackContentStep";
+import { FeedbackSuccesStep } from "./Staps/FeedbackSuccesssStep";
 
 import bugImageUrl from "../../assets/bug.svg";
 import ideaImageUrl from "../../assets/idea.svg";
 import thoughtImageUrl from "../../assets/thought.svg";
-import { FeedbackSuccesStep } from "./Staps/FeedbackSuccesssStep";
 
 export const feedbackTypes = {
   BUG: {
@@ -59,7 +59,6 @@ export function WidgetForm() {
           )}
         </>
       )}
-
 
       <footer className="text-xs text-neutral-400">
         Feito com ♥ pela <a href="https://rocketseat.com.br" className="underline underline-offset-2">Rocketseat</a>
